@@ -19,6 +19,7 @@ const ButtonShape = {
 const TitleShape = {
   title: PropTypes.string.isRequired,
   tintColor: PropTypes.string,
+  sa: PropTypes.number,
 };
 
 const StatusBarShape = {
@@ -72,11 +73,12 @@ class NavigationBar extends Component {
     }
 
     const colorStyle = data.tintColor ? { color: data.tintColor, } : null;
+    const fontSize = data.titleSize ? { fontSize: data.titleSize, } : null;
 
     return (
       <View style={styles.navBarTitleContainer}>
         <Text
-          style={[styles.navBarTitleText, colorStyle, ]}>
+          style={[styles.navBarTitleText, colorStyle, fontSize ]}>
           {data.title}
         </Text>
       </View>
