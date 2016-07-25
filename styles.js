@@ -32,8 +32,8 @@ module.exports = {
     alignItems: 'center',
   },
   navBarButtonText: {
-    fontSize: 17,
-    letterSpacing: 0.5,
+    fontSize: 14,
+    letterSpacing: 0.1,
     fontFamily: 'Lato-regular',
   },
   navBarTitleContainer: {
@@ -46,8 +46,8 @@ module.exports = {
     alignItems: 'center',
   },
   navBarTitleText: {
-    fontSize: 21,
-    letterSpacing: 0.5,
+    fontSize: 18.5,
+    letterSpacing: 0,
     color: '#333',
     fontFamily: 'Lato-regular',
   },
