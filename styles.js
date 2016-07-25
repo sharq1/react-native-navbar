@@ -49,6 +49,6 @@ module.exports = {
     fontSize: 18.5,
     letterSpacing: 0,
     color: '#333',
-    fontFamily: 'Lato-regular',
+    fontFamily: 'Lato-bold',
   },
 };
