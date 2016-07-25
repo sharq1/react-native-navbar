@@ -1,4 +1,4 @@
-const NAV_BAR_HEIGHT = 74;
+const NAV_BAR_HEIGHT = 72;
 const STATUS_BAR_HEIGHT = 20;
 
 module.exports = {
@@ -34,6 +34,7 @@ module.exports = {
   navBarButtonText: {
     fontSize: 17,
     letterSpacing: 0.5,
+    fontFamily: 'Lato-regular',
   },
   navBarTitleContainer: {
     position: 'absolute',
@@ -48,6 +49,6 @@ module.exports = {
     fontSize: 21,
     letterSpacing: 0.5,
     color: '#333',
-    fontWeight: '500',
+    fontFamily: 'Lato-regular',
   },
 };
