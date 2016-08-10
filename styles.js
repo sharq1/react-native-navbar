@@ -32,7 +32,9 @@ module.exports = {
     alignItems: 'center',
   },
   navBarButtonText: {
-    fontSize: 14,
+    marginLeft: 7,
+    marginRight: 7,
+    fontSize: 16,
     letterSpacing: 0.1,
     fontFamily: 'Lato-regular',
   },
